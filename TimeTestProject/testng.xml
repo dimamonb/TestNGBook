@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Time test Suite" time-out="500" verbose="1" >
+    <test name="Timed Test" >
+        <classes>
+            <class name="test.timetest.TimeSuit" />
+        </classes>
+    </test>
+</suite>

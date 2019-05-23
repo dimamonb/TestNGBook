@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regular Exp Suite" verbose="1">
+    <test name="Regular Exp Test">
+        <classes>
+            <class name="test.regularexppackage.RegularExpClass">
+                <methods>
+                    <include name=".*Test.*" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

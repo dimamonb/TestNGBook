@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DataProvider test Suite" verbose="1">
+    <test name="DataProvider Test">
+        <classes>
+            <class name="test.dataprovider.SameClassDataProvider" />
+        </classes>
+    </test>
+</suite>
